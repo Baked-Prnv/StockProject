@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+Index
+{% endblock title %}
+
+
+{% block css %}
+<style>
+    .center {
+        text-align: center;
+        border: 3px solid green;
+    }
+</style>
+{% endblock css %}
+
+{% block body %}
+<div class="content">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 contents">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <div class="form-block">
+                            <h1>Welcome to the stock visualiser. </h1>
+                            <label>Log in if you already have registered!</label>
+                            <div class="d-grid gap-2 col-2 mx-auto">
+                                <button class="btn btn-primary" href="#" role="button">login</button>
+                            </div>
+                            <label>If not register here!</label>
+                            <div class="d-grid gap-2 col-2 mx-auto">
+                                <button class="btn btn-primary" href="#" role="button">register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
+
+
+{% block js %}
+<script>
+
+</script>
+{% endblock js %}
